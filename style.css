@@ -1,0 +1,91 @@
+body {
+  font-family:"Roboto", sans-serif;
+  background: grey url("http://image.noelshack.com/fichiers/2018/41/1/1539030915-waterfall-by-ruins-4460x4460.png")
+}
+
+
+.fable-content{
+  position:relative;
+}
+
+.fable-text {
+  position: absolute;
+
+top: 0;
+
+width: 100%;
+  height:100%;
+  opacity:0;
+  transition:0.4s ease-in-out;
+/*   z-index:-1; */
+  color:black;
+  background-color:white;
+  overflow:scroll;
+}
+
+.fable-text:hover{
+  opacity:1;
+}
+.img-fluid:hover{
+  opacity:0
+}
+
+.img-fluid{
+    transition:0.4s ease-in-out;
+    width:100%
+
+}
+
+.fable-header {text-align: center;
+
+padding-top: 10px;
+
+padding-bottom: .5rem;
+
+margin-bottom: 0;
+
+border-bottom: 4px solid #ae1818;
+}
+
+header >h1 {
+color: white;
+
+text-align: center;
+
+
+padding-top: 5vh;
+
+font-size: 6.5em;
+
+text-transform: uppercase;
+
+font-weight: 900;}
+
+header >h3 {
+color: white;
+
+text-align: center;
+
+text-transform: uppercase;
+
+font-weight: 400;}
+
+header{
+  margin-bottom:10vh
+}
+
+.fable-container {
+  background-color:white;
+  padding:0;
+  box-shadow: 00px 0px 10px 0px #656565;
+}
+
+.fable-content > img {
+    z-index:5;
+}
+
+.fable-text > .container {
+  padding-top:10px;
+  font-size:1.25em;
+}
+
